@@ -25,6 +25,7 @@ function App() {
         <Route
           exact
           path="/restaurants/:restaurantsId/foods"
+          // パラメータとして受け取りたいところを:で書き始める。するとrender関数を使ってコンポーネントを呼ぶときにmatchオブジェクトに格納される
           render={({ match }) =>
             <Foods
               match={match}
