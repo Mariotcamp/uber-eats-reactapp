@@ -10,6 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+#ここ復習する
 ActiveRecord::Schema.define(version: 2022_01_11_124341) do
 
   create_table "foods", force: :cascade do |t|
